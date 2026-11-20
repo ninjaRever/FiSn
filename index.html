@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Découverte du Sénégal</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid px-4">
+      <a class="navbar-brand" href="#">Sénégal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Découvrir</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Lieux touristiques</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Galerie</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO 100% largeur : image de fond + texte superposé -->
+  <div class="position-relative text-white d-flex align-items-center" style="height: 60vh; width: 100vw; background-image: url('img/hero-monument.jpg'); background-size: cover; background-position: center;">
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-50"></div>
+    <div class="container-fluid position-relative px-5 text-center">
+      <h1 class="display-4 fw-bold">Découverte du Sénégal</h1>
+      <p class="fs-4">Un pays riche en culture, en paysages et en hospitalité.</p>
+      <a href="#destinations" class="btn btn-primary btn-lg">Explorer maintenant</a>
+    </div>
+  </div>
+
+  <!-- CARDS -->
+  <div class="container-fluid px-4 mb-5 mt-5" id="destinations">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/dakar.jpg" class="card-img-top" alt="Dakar">
+          <div class="card-body">
+            <h5 class="card-title">Dakar</h5>
+            <p class="card-text">La capitale du Sénégal, dynamique et moderne, offre un mélange unique de tradition et de modernité.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-success">En savoir plus</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/lac-rose.jpg" class="card-img-top" alt="Lac Rose">
+          <div class="card-body">
+            <h5 class="card-title">Le Lac Rose</h5>
+            <p class="card-text">Célèbre pour ses eaux roses exceptionnelles, le Lac Rose est une merveille naturelle du Sénégal.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">En savoir plus</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/casamance.jpg" class="card-img-top" alt="Casamance">
+          <div class="card-body">
+            <h5 class="card-title">La Casamance</h5>
+            <p class="card-text">Une région verdoyante connue pour ses paysages exceptionnels, ses traditions et son accueil chaleureux.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-warning">En savoir plus</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FEATURES -->
+  <div class="container-fluid px-4 mb-5">
+    <div class="row text-center g-4">
+      <div class="col-md-4">
+        <h2>📷</h2>
+        <h5>Des paysages uniques</h5>
+        <p class="text-muted">Plages, lacs, forêts et savanes à couper le souffle.</p>
+      </div>
+      <div class="col-md-4">
+        <h2>👥</h2>
+        <h5>Une culture riche</h5>
+        <p class="text-muted">Traditions, musique, gastronomie et artisanat.</p>
+      </div>
+      <div class="col-md-4">
+        <h2>🌿</h2>
+        <h5>Un tourisme durable</h5>
+        <p class="text-muted">Découvrir et préserver les richesses du Sénégal.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container-fluid px-4">
+      <p class="mb-1">&copy; 2024 Découverte du Sénégal. Tous droits réservés.</p>
+      <a href="#" class="text-white me-2">Facebook</a>
+      <a href="#" class="text-white me-2">Instagram</a>
+      <a href="#" class="text-white me-2">YouTube</a>
+      <a href="#" class="text-white">Twitter</a>
+    </div>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
